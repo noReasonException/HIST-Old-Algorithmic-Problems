@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1423260755 source:c:\users\Στέφανος\desktop\pdp\surebutcomplex\main.c
+	<stdio.h>
+	<stdlib.h>
+

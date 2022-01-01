@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+    int sit=1,found=1,data,count1,datnum,count2;
+    scanf("%d",&datnum);
+    for(count1=0;count1<=datnum-1;count1++){
+        scanf("%d",&data);
+        found=1;
+        for(count2=1;count2<=data;count2++){
+            if(sit==1)found+=1,sit=2;
+            else found*=2,sit=1;
+            
+        }
+        printf("%d\n",found);
+        
+    }
+        
+        
+    
+}
